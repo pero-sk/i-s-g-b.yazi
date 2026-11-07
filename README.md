@@ -19,7 +19,7 @@ ya pkg add pero-sk/i-s-g-b
 Add the following to your **init.lua** file (usually located at **~/.config/yazi/init.lua**):
 
 ```lua
-require("isgb"):setup()
+require("i-s-g-b"):setup()
 ```
 
 ## keymap.toml
@@ -29,12 +29,12 @@ Add the following keybindings to your **keymap.toml** file (usually located at *
 ```toml
 [[mgr.prepend_keymap]]
 on = [ "g", "s" ]
-run = "plugin isgb back"
+run = "plugin i-s-g-b back"
 desc = "ISGB: Go back"
 
 [[mgr.prepend_keymap]]
 on = [ "g", "w" ]
-run = "plugin isgb forward"
+run = "plugin i-s-g-b forward"
 desc = "ISGB: Go forward"
 ```
 
