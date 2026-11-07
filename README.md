@@ -11,7 +11,7 @@ The plugin uses an array and an index position to store your navigation history.
 Use **ya pkg** to install ISGB!:
 
 ```bash
-ya pkg install pero-sk/ISGB
+ya pkg install pero-sk/i-s-g-b
 ```
 
 ## init.lua
