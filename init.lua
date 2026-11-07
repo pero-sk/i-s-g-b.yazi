@@ -1,0 +1,1 @@
+require("isgb"):setup()
